@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@700&display=swap');
+.navbar-brand img{
+    height: 8vh!important;
+    width: fit-content!important;
+    border-radius: 10px!important;
+    border: 5px solid white!important; 
+    
+}
+.navbar-brand img:hover{
+    cursor: pointer!important;
+    
+    height: 8vh!important;
+    width: fit-content!important;
+    border: 5px solid #d9a514c9!important;
+    border-radius: 10px!important;
+   
+}
+.mycolor{
+    color: #d9a514c9!important;
+}
+.nav-link {
+    
+    font-family: 'Poppins', sans-serif!important;
+    
+
+}
+
+.nav-link:hover{
+    cursor: pointer!important;
+    color: white!important;
+    background-color:#d9a514c9!important;
+    transition: 0.5s!important;
+}
+.navbar-toggler{
+    color:#d9a514c9!important;
+
+}
+
+/*mainbanner*/
+.video-container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.video-container .caption {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 25%;
+  /*font-family: 'DynaPuff', cursive;*/
+  
+}
+.caption h1{
+    font-size: 3.0rem!important;
+    text-transform: capitalize!important;
+    text-align: inherit!important;
+}
+/*aboutus*/
+.aboutusimage1{
+    height: 70vmin!important;
+    width: 70vmin!important;
+    border-radius: 20px!important;
+}
+.aboutp{
+    color:grey!important;
+    font-weight: 500!important;
+    line-height: 2.1rem!important;
+}
+
+.fa-solid, .fa-right-to-bracket{
+    color: #d9a514c9!important;
+}
+.abouth5{
+    color:rgb(7, 6, 6)!important;
+    font-weight: 400!important;
+}
+
+
+.accordion{
+    --bs-accordion-active-color: #d9a514c9!important;
+    --bs-accordion-active-bg: white;
+    --bs-accordion-border-color: #ffffff;
+    --bs-accordion-btn-focus-color: #d9a514c9!important;
+    --bs-accordion-btn-focus-border-color: #d9a514c9!important;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #d9a514c9!important;
+   
+}
+.hoverclass li:hover{
+    color: #d9a514c9!important;
+}
+
+
+/*products*/
+.products{
+    padding: 0!important;
+}
+.productsbanner{
+    height: 60vh!important;
+    width:100%!important;
+    background: url("images/pexels-miguel-á-padriñán-130980.jpg");
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    background-size: cover!important;
+    background-attachment: fixed!important;
+    color: white!important;
+    
+    z-index: -1!important;
+    
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #444444;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section-products {
+    padding: 80px 0 54px;
+}
+
+.section-products .header {
+    margin-bottom: 50px;
+}
+
+.section-products .header h3 {
+    font-size: 1rem;
+    color: #d9a514c9;
+    font-weight: 500;
+}
+
+.section-products .header h2 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #444444; 
+}
+
+.section-products .single-product {
+    margin-bottom: 26px;
+}
+
+.section-products .single-product .part-1 {
+    position: relative;
+    height: 290px;
+    max-height: 290px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.section-products .single-product .part-1::before {
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		transition: all 0.3s;
+}
+
+.section-products .single-product:hover .part-1::before {
+		transform: scale(1.2,1.2) rotate(5deg);
+}
+
+.section-products #product-1 .part-1::before {
+    background: url("images/8in1antihairfallshampoo_1280x.jpg") no-repeat center;
+    background-size: cover;
+		transition: all 0.3s;
+}
+
+.section-products #product-2 .part-1::before {
+    background: url("images/Aloeveramassagegel_1280x.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-3 .part-1::before {
+    background: url("images/Bhringraj100_75ee8408-8e9d-4d67-bc6a-09b60c50f672_1280x.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-4 .part-1::before {
+    background: url("images/Coconutoil200_f0410707-7f2d-4053-8082-d58be912b2b8_1280x.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.section-products .single-product .part-1 .discount,
+.section-products .single-product .part-1 .new {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #ffffff;
+    background-color: #d9a514c9;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.section-products .single-product .part-1 .new {
+    left: 0;
+    background-color: #444444;
+}
+
+.section-products .single-product .part-1 ul {
+    position: absolute;
+    bottom: -41px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.section-products .single-product:hover .part-1 ul {
+    bottom: 30px;
+    opacity: 1;
+}
+
+.section-products .single-product .part-1 ul li {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.section-products .single-product .part-1 ul li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ffffff;
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
+    transition: color 0.2s;
+}
+
+.section-products .single-product .part-1 ul li a:hover {
+    color: #d9a514c9;
+}
+
+.section-products .single-product .part-2 .product-title {
+    font-size: 1rem;
+}
+
+.section-products .single-product .part-2 h4 {
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.section-products .single-product .part-2 .product-old-price {
+    position: relative;
+    padding: 0 7px;
+    margin-right: 2px;
+    opacity: 0.6;
+}
+
+.section-products .single-product .part-2 .product-old-price::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #444444;
+    transform: translateY(-50%);
+}
+
+/*blog*/
+.blogbanner{
+    display: flex;
+  background:url("images/blogbanner2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+  min-height: 60vh;
+  align-items: center;
+  justify-content: center;
+}
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.content {
+    position: relative;
+  }
+  
+  .content h2 {
+    color: #fff;
+    font-size: 8em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  
+  .content h2:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 2px #d9a514c9;
+  }
+  
+  .content h2:nth-child(2) {
+    color: #d9a514c9;
+    animation: animate 4s ease-in-out infinite;
+  }
+  
+  @keyframes animate {
+    0%,
+    100% {
+      clip-path: polygon(
+        0% 45%,
+        16% 44%,
+        33% 50%,
+        54% 60%,
+        70% 61%,
+        84% 59%,
+        100% 52%,
+        100% 100%,
+        0% 100%
+      );
+    }
+  
+    50% {
+      clip-path: polygon(
+        0% 60%,
+        15% 65%,
+        34% 66%,
+        51% 62%,
+        67% 50%,
+        84% 45%,
+        100% 46%,
+        100% 100%,
+        0% 100%
+      );
+    }
+  }
+
+
+
+  /*blog*/
+  .blgheadingbg{
+    background-color: #d9a514c9!important;
+    border: 2px solid #d9a514c9!important;
+  }
+  .blgheadingbg:hover{
+    color: #d9a514c9!important;
+    background-color: white!important;
+    cursor: pointer !important;
+  }
+  .blgli:hover{
+    color: #d9a514c9!important;
+    cursor: pointer!important;
+  }
+  .blogrensponse{
+    height: 70vh!important;
+    border: 2px solid #d9a514c9!important ;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    color: #d9a514c9!important;
+    border-radius: 10px!important;
+    text-transform: uppercase!important;
+    
+  }
+
+
+
+
+  /*contact css*/
+    .contactcolor{
+    color: #d9a514c9!important;
+} 
+.contactbtn:hover{
+    color: grey!important;
+    cursor: pointer!important;
+} 
+.form-floating textarea{
+    
+    background-color: white!important;
+}
+.contactcustombtn{
+    background-color: #dac488c9!important;
+    border: 2px solid white!important;
+}
+.contactcustombtn:hover{
+    background-color: white!important;
+    color: #dac488c9!important;
+    border: 2px solid #dac488c9!important;
+
+}
+
+
+
+.contactbannerclass{
+    background: url("images/contactbannerimg.jpg")!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-attachment: fixed!important;
+    height:60vh!important;
+    
+    
+}
+  
+  
+  
+  
+  
+
+  
+
+/*Footer class*/
+.myFooterClass{
+    padding: 0!important;
+   
+}
+.footerlogoanimationclass{
+    
+   height: 5rem!important;
+   width: 9rem!important;
+   animation: zoom-in-zoom-out 2s ease-out infinite;
+   border: none!important;
+
+    
+
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.3, 1.3);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+    
+   
+    
+    
+    
+    
+
+
+  
+  

@@ -1,0 +1,29 @@
+This website is created with bootstrap5 embedded with custom classes and 
+some vanilla js also.Proper care has been taken to add the suitable icon 
+and page title also with proper meta description and keywords as seo part with a 
+favicon also used .
+1.navbar:-navbar is fixed with five options home about products blogs contact a
+  each part is clickable..
+  2.Home:there is a video with heading in the center matching the logo and color theme 
+  of the supherb logo;
+  3.about us :-its a sample about us page designed with some images and complete 
+  information about the company and owner.
+  4.products: fixed image atachment at the top with some sample producs gallery and when 
+  hovered also some effects 
+  5.blogs: fixed image attachment with animated heading in it ..and there are two section
+    below it a)first one for the iframe of website and b) second for the blog links
+    when clicked on each heading . it renders the blog website which readers can go through
+
+  6.contact us : when clicked on the click here the form appears with fixed attached image 
+  7.footer:--footer have animated logo which zoom in and zoom out with navbar menu and 
+  a copyright statemnt
+
+
+  Note:--No proper instruction / or any ui/ux figma was given otherwise it would have 
+        been much more better.. still i tried my level best .. 
+
+--------------PLZ READ THE RESOURCES.TXT. BEFORE VISISTING THE WEBSITE---------------
+
+  
+
+

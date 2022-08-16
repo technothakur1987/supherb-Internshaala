@@ -1,0 +1,62 @@
+/*this is media query page */
+
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .video-container .caption {
+        padding-top:50%!important;
+    }
+    #aboutus{
+        margin-top: 10vh!important;
+        margin-bottom: 10vh!important;
+        padding-top: 0!important;
+        padding-bottom: 0!important;
+        text-align: justify!important;
+    }
+    .mqnopadding{
+        padding-top: 0!important;
+        padding-bottom: 0!important;
+    }
+    .mqtextalign{
+        text-align: left!important;
+    }
+    .mqabout{
+        text-align: initial!important;
+    }
+    .productsbanner h1{
+        text-align: center!important;
+    }
+    
+    .blogrensponse h1{
+        text-align: center!important;
+    }
+    .contact{
+        margin-top: 5vh!important;
+        margin-bottom: 5vh!important;
+    }
+    .mqfooterlogo{
+        margin-top: 5vh!important;
+        margin-bottom: 5vh!important;
+    }
+    .mqfooter{
+        display: flex!important;
+        flex-direction: column!important;
+        align-items: center!important;
+        justify-content: center!important;
+    }
+    .mqul{
+        justify-content: center!important;
+    }
+ }
+
+/* `md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+    .video-container .caption {
+    padding-top:60%!important;
+} 
+}
+
+
+
+
+
